@@ -1,0 +1,35 @@
+Code belonging to
+
+# Kuijper, B & Hoyle, R. B. 2015
+# When to rely on maternal effects and when to rely on phenotypic plasticity?
+# Evolution, http://dx.doi.org/10.1111/evo.12635 
+
+########### Numerical iterations ###########
+
+iterations_m.py
+Python code implementing numerical iterations of eqns. (8a-c).
+
+
+
+########### Individual-based simulations (coded in C) ###########
+
+m_shift.cpp 
+The evolution of maternal effects in an environment that is characterized by a rapid environmental shift
+
+m_sin.cpp 
+The evolution of maternal effects in a periodically fluctuating environment 
+
+m_size.cpp 
+The evolution of maternal effects in a periodically fluctuating environment in which the phenotype is size, trading off against fecundity 
+
+and two bash files run_m_*.sh illustrating the use of the command line parameters
+
+
+Code ran on an Ubuntu Linux machine with the GNU Scientific Library installed. 
+Compile as follows:
+g++ -Wall -o m_shift m_shift.cpp -lm -lrt -lgsl -lgslcblas
+Should, in principle, also be able to work on a windows machine with MinGW and GnuWin32 installed: http://www.mingw.org/ 
+
+50000 generations should take less than 10 minutes. The m_size is much slower, as it relies on producing a large number of offspring
+
+
