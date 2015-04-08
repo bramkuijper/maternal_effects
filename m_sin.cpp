@@ -5,9 +5,9 @@
 // this code is published according to the GNU Public license v3
 // https://www.gnu.org/licenses/gpl.html 
 //
-// When using/extending this simulation, please cite the corresponding paper(s):
-// Kuijper, B & Hoyle, R.B. When to rely on maternal effects 
-// as opposed to phenotypic plasticity? 
+// Kuijper, B & Hoyle, R. B. 2015
+// When to rely on maternal effects and when to rely on phenotypic plasticity?
+// Evolution, http://dx.doi.org/10.1111/evo.12635 
 //
 // You may also find the following paper interesting:
 // Kuijper, B.; Johnstone, R. A. & Townley, S. (2014). The evolution of 
